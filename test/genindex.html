@@ -1,0 +1,973 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Index &mdash; smpl_parallel  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/jupyter-sphinx.css" type="text/css" />
+  <link rel="stylesheet" href="_static/thebelab.css" type="text/css" />
+  <link rel="stylesheet" href="_static/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+        <script src="_static/thebelab-helper.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@jupyter-widgets/html-manager@^1.0.1/dist/embed-amd.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="#" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> smpl_parallel
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.2.1-2-gf462c78
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption" role="heading"><span class="caption-text">Links:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/APN-Pucky/smpl">GitHub</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="example/index.html">Examples</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Modules:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="_autosummary/smpl.html">smpl</a></li>
+<li class="toctree-l1"><a class="reference internal" href="_autosummary/smpl_io.html">smpl_io</a></li>
+<li class="toctree-l1"><a class="reference internal" href="_autosummary/smpl_debug.html">smpl_debug</a></li>
+<li class="toctree-l1"><a class="reference internal" href="_autosummary/smpl_doc.html">smpl_doc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="_autosummary/smpl_util.html">smpl_util</a></li>
+<li class="toctree-l1"><a class="reference internal" href="_autosummary/smpl_io.html">smpl_io</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Profiling:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="performance/index.html">Graph Profiling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="performance/line.html">Line Profiling</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Versions:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://smpl.readthedocs.io/en/stable/">RTD</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://apn-pucky.github.io/smpl/">Stable</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://apn-pucky.github.io/smpl/test/">Dev</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">smpl_parallel</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Index</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+
+<h1 id="index">Index</h1>
+
+<div class="genindex-jumpbox">
+ <a href="#_"><strong>_</strong></a>
+ | <a href="#A"><strong>A</strong></a>
+ | <a href="#C"><strong>C</strong></a>
+ | <a href="#D"><strong>D</strong></a>
+ | <a href="#E"><strong>E</strong></a>
+ | <a href="#F"><strong>F</strong></a>
+ | <a href="#G"><strong>G</strong></a>
+ | <a href="#H"><strong>H</strong></a>
+ | <a href="#I"><strong>I</strong></a>
+ | <a href="#L"><strong>L</strong></a>
+ | <a href="#M"><strong>M</strong></a>
+ | <a href="#N"><strong>N</strong></a>
+ | <a href="#O"><strong>O</strong></a>
+ | <a href="#P"><strong>P</strong></a>
+ | <a href="#Q"><strong>Q</strong></a>
+ | <a href="#R"><strong>R</strong></a>
+ | <a href="#S"><strong>S</strong></a>
+ | <a href="#T"><strong>T</strong></a>
+ | <a href="#U"><strong>U</strong></a>
+ | <a href="#W"><strong>W</strong></a>
+ 
+</div>
+<h2 id="_">_</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.fit.Fitter.html#smpl.fit.Fitter.__init__">__init__() (smpl.fit.Fitter method)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="A">A</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl_doc.doc.append.html#smpl_doc.doc.append">append() (in module smpl_doc.doc)</a>
+
+      <ul>
+        <li><a href="_autosummary/smpl_io.io.append.html#smpl_io.io.append">(in module smpl_io.io)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/smpl_doc.doc.append_doc.html#smpl_doc.doc.append_doc">append_doc() (in module smpl_doc.doc)</a>
+</li>
+      <li><a href="_autosummary/smpl.doc.append_plot.html#smpl.doc.append_plot">append_plot() (in module smpl.doc)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl_doc.doc.append_str.html#smpl_doc.doc.append_str">append_str() (in module smpl_doc.doc)</a>
+</li>
+      <li><a href="_autosummary/smpl_doc.doc.array_table.html#smpl_doc.doc.array_table">array_table() (in module smpl_doc.doc)</a>
+</li>
+      <li><a href="_autosummary/smpl.fit.auto.html#smpl.fit.auto">auto() (in module smpl.fit)</a>
+
+      <ul>
+        <li><a href="_autosummary/smpl.plot.auto.html#smpl.plot.auto">(in module smpl.plot)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/smpl.stat.average_deviation.html#smpl.stat.average_deviation">average_deviation() (in module smpl.stat)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="C">C</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.parallel.calc.html#smpl.parallel.calc">calc() (in module smpl.parallel)</a>
+</li>
+      <li><a href="_autosummary/smpl.interpolate.check.html#smpl.interpolate.check">check() (in module smpl.interpolate)</a>
+</li>
+      <li><a href="_autosummary/smpl_debug.debug.check_count.html#smpl_debug.debug.check_count">check_count() (in module smpl_debug.debug)</a>
+</li>
+      <li><a href="_autosummary/smpl.fit.Chi2.html#smpl.fit.Chi2">Chi2() (in module smpl.fit)</a>
+
+      <ul>
+        <li><a href="_autosummary/smpl.stat.Chi2.html#smpl.stat.Chi2">(in module smpl.stat)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.stat.chi2.html#smpl.stat.chi2">chi2() (in module smpl.stat)</a>
+</li>
+      <li><a href="_autosummary/smpl.functions.const.html#smpl.functions.const">const() (in module smpl.functions)</a>
+</li>
+      <li><a href="_autosummary/smpl.functions.cos.html#smpl.functions.cos">cos() (in module smpl.functions)</a>
+</li>
+      <li><a href="_autosummary/smpl.functions.cos_abs.html#smpl.functions.cos_abs">cos_abs() (in module smpl.functions)</a>
+</li>
+      <li><a href="_autosummary/smpl.functions.cube.html#smpl.functions.cube">cube() (in module smpl.functions)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="D">D</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.plot.data.html#smpl.plot.data">data() (in module smpl.plot)</a>
+</li>
+      <li><a href="_autosummary/smpl.data.data_kwargs.html#smpl.data.data_kwargs">data_kwargs() (in module smpl.data)</a>
+</li>
+      <li><a href="_autosummary/smpl.fit.data_split.html#smpl.fit.data_split">data_split() (in module smpl.fit)</a>
+
+      <ul>
+        <li><a href="_autosummary/smpl.plot.data_split.html#smpl.plot.data_split">(in module smpl.plot)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl_doc.doc.deprecated.html#smpl_doc.doc.deprecated">deprecated() (in module smpl_doc.doc)</a>
+</li>
+      <li><a href="_autosummary/smpl_doc.doc.dict_to_table.html#smpl_doc.doc.dict_to_table">dict_to_table() (in module smpl_doc.doc)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="E">E</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.functions.exp.html#smpl.functions.exp">exp() (in module smpl.functions)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.functions.exponential.html#smpl.functions.exponential">exponential() (in module smpl.functions)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="F">F</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.functions.fac.html#smpl.functions.fac">fac() (in module smpl.functions)</a>
+</li>
+      <li><a href="_autosummary/smpl.stat.fft.html#smpl.stat.fft">fft() (in module smpl.stat)</a>
+</li>
+      <li><a href="_autosummary/smpl_debug.debug.file.html#smpl_debug.debug.file">file() (in module smpl_debug.debug)</a>
+</li>
+      <li><a href="_autosummary/smpl_debug.debug.file1.html#smpl_debug.debug.file1">file1() (in module smpl_debug.debug)</a>
+</li>
+      <li><a href="_autosummary/smpl_io.io.files.html#smpl_io.io.files">files() (in module smpl_io.io)</a>
+</li>
+      <li><a href="_autosummary/smpl.data.filtered_data_split.html#smpl.data.filtered_data_split">filtered_data_split() (in module smpl.data)</a>
+</li>
+      <li><a href="_autosummary/smpl_io.io.find_file.html#smpl_io.io.find_file">find_file() (in module smpl_io.io)</a>
+</li>
+      <li><a href="_autosummary/smpl_util.util.find_nearest.html#smpl_util.util.find_nearest">find_nearest() (in module smpl_util.util)</a>
+</li>
+      <li><a href="_autosummary/smpl_util.util.find_nearest_index.html#smpl_util.util.find_nearest_index">find_nearest_index() (in module smpl_util.util)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.fit.fit.html#smpl.fit.fit">fit() (in module smpl.fit)</a>
+
+      <ul>
+        <li><a href="_autosummary/smpl.plot.fit.html#smpl.plot.fit">(in module smpl.plot)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/smpl.fit.fit_kwargs.html#smpl.fit.fit_kwargs">fit_kwargs() (in module smpl.fit)</a>
+</li>
+      <li><a href="_autosummary/smpl.fit.fit_split.html#smpl.fit.fit_split">fit_split() (in module smpl.fit)</a>
+</li>
+      <li><a href="_autosummary/smpl.fit.Fitter.html#smpl.fit.Fitter">Fitter (class in smpl.fit)</a>
+</li>
+      <li><a href="_autosummary/smpl.data.flatmesh.html#smpl.data.flatmesh">flatmesh() (in module smpl.data)</a>
+</li>
+      <li><a href="_autosummary/smpl.wrap.fnc_get_lambda.html#smpl.wrap.fnc_get_lambda">fnc_get_lambda() (in module smpl.wrap)</a>
+</li>
+      <li><a href="_autosummary/smpl.wrap.fnc_get_varnames.html#smpl.wrap.fnc_get_varnames">fnc_get_varnames() (in module smpl.wrap)</a>
+</li>
+      <li><a href="_autosummary/smpl.plot.function.html#smpl.plot.function">function() (in module smpl.plot)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="G">G</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.functions.Gauss.html#smpl.functions.Gauss">Gauss() (in module smpl.functions)</a>
+</li>
+      <li><a href="_autosummary/smpl.functions.gauss.html#smpl.functions.gauss">gauss() (in module smpl.functions)</a>
+</li>
+      <li><a href="_autosummary/smpl.parallel.gen.html#smpl.parallel.gen">gen() (in module smpl.parallel)</a>
+</li>
+      <li><a href="_autosummary/smpl_util.util.get.html#smpl_util.util.get">get() (in module smpl_util.util)</a>
+</li>
+      <li><a href="_autosummary/smpl_debug.debug.get_count.html#smpl_debug.debug.get_count">get_count() (in module smpl_debug.debug)</a>
+</li>
+      <li><a href="_autosummary/smpl.stat.get_domain.html#smpl.stat.get_domain">get_domain() (in module smpl.stat)</a>
+</li>
+      <li><a href="_autosummary/smpl.plot.get_fnc_legend.html#smpl.plot.get_fnc_legend">get_fnc_legend() (in module smpl.plot)</a>
+</li>
+      <li><a href="_autosummary/smpl_debug.debug.get_frame.html#smpl_debug.debug.get_frame">get_frame() (in module smpl_debug.debug)</a>
+</li>
+      <li><a href="_autosummary/smpl.stat.get_interesting_domain.html#smpl.stat.get_interesting_domain">get_interesting_domain() (in module smpl.stat)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.wrap.get_lambda.html#smpl.wrap.get_lambda">get_lambda() (in module smpl.wrap)</a>
+</li>
+      <li><a href="_autosummary/smpl.wrap.get_lambda_argd.html#smpl.wrap.get_lambda_argd">get_lambda_argd() (in module smpl.wrap)</a>
+</li>
+      <li><a href="_autosummary/smpl.wrap.get_latex.html#smpl.wrap.get_latex">get_latex() (in module smpl.wrap)</a>
+</li>
+      <li><a href="_autosummary/smpl_debug.debug.get_line_number.html#smpl_debug.debug.get_line_number">get_line_number() (in module smpl_debug.debug)</a>
+</li>
+      <li><a href="_autosummary/smpl_debug.debug.get_line_number_file.html#smpl_debug.debug.get_line_number_file">get_line_number_file() (in module smpl_debug.debug)</a>
+</li>
+      <li><a href="_autosummary/smpl_debug.debug.get_line_src.html#smpl_debug.debug.get_line_src">get_line_src() (in module smpl_debug.debug)</a>
+</li>
+      <li><a href="_autosummary/smpl.wrap.get_varnames.html#smpl.wrap.get_varnames">get_varnames() (in module smpl.wrap)</a>
+</li>
+      <li><a href="_autosummary/smpl_io.io.gf.html#smpl_io.io.gf">gf() (in module smpl_io.io)</a>
+</li>
+      <li><a href="_autosummary/smpl_io.io.glob_re.html#smpl_io.io.glob_re">glob_re() (in module smpl_io.io)</a>
+</li>
+      <li><a href="_autosummary/smpl_io.io.grep.html#smpl_io.io.grep">grep() (in module smpl_io.io)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="H">H</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl_util.util.has.html#smpl_util.util.has">has() (in module smpl_util.util)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl_io.io.head.html#smpl_io.io.head">head() (in module smpl_io.io)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="I">I</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.interpolate.identity.html#smpl.interpolate.identity">identity() (in module smpl.interpolate)</a>
+</li>
+      <li><a href="_autosummary/smpl_io.io.import_path.html#smpl_io.io.import_path">import_path() (in module smpl_io.io)</a>
+</li>
+      <li><a href="_autosummary/smpl_debug.debug.inc_count.html#smpl_debug.debug.inc_count">inc_count() (in module smpl_debug.debug)</a>
+</li>
+      <li><a href="_autosummary/smpl.plot.init_plot.html#smpl.plot.init_plot">init_plot() (in module smpl.plot)</a>
+</li>
+      <li><a href="_autosummary/smpl_doc.doc.insert.html#smpl_doc.doc.insert">insert() (in module smpl_doc.doc)</a>
+</li>
+      <li><a href="_autosummary/smpl_doc.doc.insert_doc.html#smpl_doc.doc.insert_doc">insert_doc() (in module smpl_doc.doc)</a>
+</li>
+      <li><a href="_autosummary/smpl.doc.insert_eq.html#smpl.doc.insert_eq">insert_eq() (in module smpl.doc)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.doc.insert_latex.html#smpl.doc.insert_latex">insert_latex() (in module smpl.doc)</a>
+</li>
+      <li><a href="_autosummary/smpl.doc.insert_latex_eq.html#smpl.doc.insert_latex_eq">insert_latex_eq() (in module smpl.doc)</a>
+</li>
+      <li><a href="_autosummary/smpl_doc.doc.insert_str.html#smpl_doc.doc.insert_str">insert_str() (in module smpl_doc.doc)</a>
+</li>
+      <li><a href="_autosummary/smpl.interpolate.interpolate.html#smpl.interpolate.interpolate">interpolate() (in module smpl.interpolate)</a>
+</li>
+      <li><a href="_autosummary/smpl.interpolate.interpolate_kwargs.html#smpl.interpolate.interpolate_kwargs">interpolate_kwargs() (in module smpl.interpolate)</a>
+</li>
+      <li><a href="_autosummary/smpl.interpolate.interpolate_split.html#smpl.interpolate.interpolate_split">interpolate_split() (in module smpl.interpolate)</a>
+</li>
+      <li><a href="_autosummary/smpl.stat.is_monotone.html#smpl.stat.is_monotone">is_monotone() (in module smpl.stat)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="L">L</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.functions.line.html#smpl.functions.line">line() (in module smpl.functions)</a>
+
+      <ul>
+        <li><a href="_autosummary/smpl_debug.debug.line.html#smpl_debug.debug.line">(in module smpl_debug.debug)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/smpl_debug.debug.line1.html#smpl_debug.debug.line1">line1() (in module smpl_debug.debug)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.functions.linear.html#smpl.functions.linear">linear() (in module smpl.functions)</a>
+</li>
+      <li><a href="_autosummary/smpl.functions.log.html#smpl.functions.log">log() (in module smpl.functions)</a>
+</li>
+      <li><a href="_autosummary/smpl.functions.lorentz.html#smpl.functions.lorentz">lorentz() (in module smpl.functions)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="M">M</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.plot2d.map_vplot.html#smpl.plot2d.map_vplot">map_vplot() (in module smpl.plot2d)</a>
+</li>
+      <li><a href="_autosummary/smpl.stat.mean.html#smpl.stat.mean">mean() (in module smpl.stat)</a>
+</li>
+      <li><a href="_autosummary/smpl_io.io.mkdirs.html#smpl_io.io.mkdirs">mkdirs() (in module smpl_io.io)</a>
+</li>
+      <li>
+    module
+
+      <ul>
+        <li><a href="_autosummary/smpl.html#module-smpl">smpl</a>
+</li>
+        <li><a href="_autosummary/smpl.data.html#module-smpl.data">smpl.data</a>
+</li>
+        <li><a href="_autosummary/smpl.debug.html#module-smpl.debug">smpl.debug</a>
+</li>
+        <li><a href="_autosummary/smpl.doc.html#module-smpl.doc">smpl.doc</a>
+</li>
+        <li><a href="_autosummary/smpl.fit.html#module-smpl.fit">smpl.fit</a>
+</li>
+        <li><a href="_autosummary/smpl.functions.html#module-smpl.functions">smpl.functions</a>
+</li>
+        <li><a href="_autosummary/smpl.interpolate.html#module-smpl.interpolate">smpl.interpolate</a>
+</li>
+        <li><a href="_autosummary/smpl.io.html#module-smpl.io">smpl.io</a>
+</li>
+        <li><a href="_autosummary/smpl.latex.html#module-smpl.latex">smpl.latex</a>
+</li>
+        <li><a href="_autosummary/smpl.parallel.html#module-smpl.parallel">smpl.parallel</a>
+</li>
+        <li><a href="_autosummary/smpl.plot.html#module-smpl.plot">smpl.plot</a>
+</li>
+        <li><a href="_autosummary/smpl.plot2d.html#module-smpl.plot2d">smpl.plot2d</a>
+</li>
+        <li><a href="_autosummary/smpl.stat.html#module-smpl.stat">smpl.stat</a>
+</li>
+        <li><a href="_autosummary/smpl.util.html#module-smpl.util">smpl.util</a>
+</li>
+        <li><a href="_autosummary/smpl.wrap.html#module-smpl.wrap">smpl.wrap</a>
+</li>
+        <li><a href="_autosummary/smpl_debug.html#module-smpl_debug">smpl_debug</a>
+</li>
+        <li><a href="_autosummary/smpl_debug.debug.html#module-smpl_debug.debug">smpl_debug.debug</a>
+</li>
+        <li><a href="_autosummary/smpl_doc.html#module-smpl_doc">smpl_doc</a>
+</li>
+        <li><a href="_autosummary/smpl_doc.doc.html#module-smpl_doc.doc">smpl_doc.doc</a>
+</li>
+        <li><a href="_autosummary/smpl_io.html#module-smpl_io">smpl_io</a>
+</li>
+        <li><a href="_autosummary/smpl_io.io.html#module-smpl_io.io">smpl_io.io</a>
+</li>
+        <li><a href="_autosummary/smpl_util.html#module-smpl_util">smpl_util</a>
+</li>
+        <li><a href="_autosummary/smpl_util.util.html#module-smpl_util.util">smpl_util.util</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl_debug.debug.msg.html#smpl_debug.debug.msg">msg() (in module smpl_debug.debug)</a>
+</li>
+      <li><a href="_autosummary/smpl_debug.debug.msg1.html#smpl_debug.debug.msg1">msg1() (in module smpl_debug.debug)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="N">N</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.stat.no_dist.html#smpl.stat.no_dist">no_dist() (in module smpl.stat)</a>
+</li>
+      <li><a href="_autosummary/smpl.stat.noisy.html#smpl.stat.noisy">noisy() (in module smpl.stat)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.stat.normal.html#smpl.stat.normal">normal() (in module smpl.stat)</a>
+</li>
+      <li><a href="_autosummary/smpl.stat.normalize.html#smpl.stat.normalize">normalize() (in module smpl.stat)</a>
+</li>
+      <li><a href="_autosummary/smpl.stat.novar_mean.html#smpl.stat.novar_mean">novar_mean() (in module smpl.stat)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="O">O</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl_debug.debug.once.html#smpl_debug.debug.once">once() (in module smpl_debug.debug)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.functions.order.html#smpl.functions.order">order() (in module smpl.functions)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="P">P</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.parallel.par.html#smpl.parallel.par">par() (in module smpl.parallel)</a>
+</li>
+      <li><a href="_autosummary/smpl.parallel.parallel.html#smpl.parallel.parallel">parallel() (in module smpl.parallel)</a>
+</li>
+      <li><a href="_autosummary/smpl.parallel.partitioned_parallel.html#smpl.parallel.partitioned_parallel">partitioned_parallel() (in module smpl.parallel)</a>
+</li>
+      <li><a href="_autosummary/smpl.plot2d.pcolormesh_vplot.html#smpl.plot2d.pcolormesh_vplot">pcolormesh_vplot() (in module smpl.plot2d)</a>
+</li>
+      <li><a href="_autosummary/smpl.plot.plot2d.html#smpl.plot.plot2d">plot2d() (in module smpl.plot)</a>
+
+      <ul>
+        <li><a href="_autosummary/smpl.plot2d.plot2d.html#smpl.plot2d.plot2d">(in module smpl.plot2d)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/smpl.plot.plot2d_kwargs.html#smpl.plot.plot2d_kwargs">plot2d_kwargs() (in module smpl.plot)</a>
+
+      <ul>
+        <li><a href="_autosummary/smpl.plot2d.plot2d_kwargs.html#smpl.plot2d.plot2d_kwargs">(in module smpl.plot2d)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/smpl.plot.plot_kwargs.html#smpl.plot.plot_kwargs">plot_kwargs() (in module smpl.plot)</a>
+</li>
+      <li><a href="_autosummary/smpl.plot.plt_data.html#smpl.plot.plt_data">plt_data() (in module smpl.plot)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.plot.plt_fit.html#smpl.plot.plt_fit">plt_fit() (in module smpl.plot)</a>
+</li>
+      <li><a href="_autosummary/smpl.plot.plt_fit_or_interpolate.html#smpl.plot.plt_fit_or_interpolate">plt_fit_or_interpolate() (in module smpl.plot)</a>
+</li>
+      <li><a href="_autosummary/smpl.plot.plt_interpolate.html#smpl.plot.plt_interpolate">plt_interpolate() (in module smpl.plot)</a>
+</li>
+      <li><a href="_autosummary/smpl.plot.plt_plt.html#smpl.plot.plt_plt">plt_plt() (in module smpl.plot)</a>
+</li>
+      <li><a href="_autosummary/smpl.plot.plt_residue.html#smpl.plot.plt_residue">plt_residue() (in module smpl.plot)</a>
+</li>
+      <li><a href="_autosummary/smpl_io.io.pn.html#smpl_io.io.pn">pn() (in module smpl_io.io)</a>
+</li>
+      <li><a href="_autosummary/smpl.stat.poisson_dist.html#smpl.stat.poisson_dist">poisson_dist() (in module smpl.stat)</a>
+</li>
+      <li><a href="_autosummary/smpl_io.io.pr.html#smpl_io.io.pr">pr() (in module smpl_io.io)</a>
+</li>
+      <li><a href="_autosummary/smpl_io.io.pushd.html#smpl_io.io.pushd">pushd() (in module smpl_io.io)</a>
+</li>
+      <li><a href="_autosummary/smpl_io.io.pwd.html#smpl_io.io.pwd">pwd() (in module smpl_io.io)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="Q">Q</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.parallel.queued.html#smpl.parallel.queued">queued() (in module smpl.parallel)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="R">R</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.fit.R2.html#smpl.fit.R2">R2() (in module smpl.fit)</a>
+
+      <ul>
+        <li><a href="_autosummary/smpl.stat.R2.html#smpl.stat.R2">(in module smpl.stat)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/smpl.stat.r2.html#smpl.stat.r2">r2() (in module smpl.stat)</a>
+</li>
+      <li><a href="_autosummary/smpl_io.io.read.html#smpl_io.io.read">read() (in module smpl_io.io)</a>
+</li>
+      <li><a href="_autosummary/smpl_io.io.remove.html#smpl_io.io.remove">remove() (in module smpl_io.io)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl_util.util.rename.html#smpl_util.util.rename">rename() (in module smpl_util.util)</a>
+</li>
+      <li><a href="_autosummary/smpl.parallel.res.html#smpl.parallel.res">res() (in module smpl.parallel)</a>
+</li>
+      <li><a href="_autosummary/smpl_debug.debug.reset_count.html#smpl_debug.debug.reset_count">reset_count() (in module smpl_debug.debug)</a>
+</li>
+      <li><a href="_autosummary/smpl_debug.debug.reset_table.html#smpl_debug.debug.reset_table">reset_table() (in module smpl_debug.debug)</a>
+</li>
+      <li><a href="_autosummary/smpl_debug.debug.reset_times.html#smpl_debug.debug.reset_times">reset_times() (in module smpl_debug.debug)</a>
+</li>
+      <li><a href="_autosummary/smpl.stat.round_sig.html#smpl.stat.round_sig">round_sig() (in module smpl.stat)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="S">S</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.plot.save_plot.html#smpl.plot.save_plot">save_plot() (in module smpl.plot)</a>
+</li>
+      <li><a href="_autosummary/smpl.plot2d.scatter_vplot.html#smpl.plot2d.scatter_vplot">scatter_vplot() (in module smpl.plot2d)</a>
+</li>
+      <li><a href="_autosummary/smpl.plot.set_plot_style.html#smpl.plot.set_plot_style">set_plot_style() (in module smpl.plot)</a>
+</li>
+      <li><a href="_autosummary/smpl.plot.show.html#smpl.plot.show">show() (in module smpl.plot)</a>
+</li>
+      <li><a href="_autosummary/smpl.latex.si.html#smpl.latex.si">si() (in module smpl.latex)</a>
+</li>
+      <li><a href="_autosummary/smpl.latex.si_line.html#smpl.latex.si_line">si_line() (in module smpl.latex)</a>
+</li>
+      <li><a href="_autosummary/smpl.latex.si_tab.html#smpl.latex.si_tab">si_tab() (in module smpl.latex)</a>
+</li>
+      <li><a href="_autosummary/smpl.latex.si_ttab.html#smpl.latex.si_ttab">si_ttab() (in module smpl.latex)</a>
+</li>
+      <li><a href="_autosummary/smpl.functions.sin.html#smpl.functions.sin">sin() (in module smpl.functions)</a>
+</li>
+      <li>
+    smpl
+
+      <ul>
+        <li><a href="_autosummary/smpl.html#module-smpl">module</a>
+</li>
+      </ul></li>
+      <li>
+    smpl.data
+
+      <ul>
+        <li><a href="_autosummary/smpl.data.html#module-smpl.data">module</a>
+</li>
+      </ul></li>
+      <li>
+    smpl.debug
+
+      <ul>
+        <li><a href="_autosummary/smpl.debug.html#module-smpl.debug">module</a>
+</li>
+      </ul></li>
+      <li>
+    smpl.doc
+
+      <ul>
+        <li><a href="_autosummary/smpl.doc.html#module-smpl.doc">module</a>
+</li>
+      </ul></li>
+      <li>
+    smpl.fit
+
+      <ul>
+        <li><a href="_autosummary/smpl.fit.html#module-smpl.fit">module</a>
+</li>
+      </ul></li>
+      <li>
+    smpl.functions
+
+      <ul>
+        <li><a href="_autosummary/smpl.functions.html#module-smpl.functions">module</a>
+</li>
+      </ul></li>
+      <li>
+    smpl.interpolate
+
+      <ul>
+        <li><a href="_autosummary/smpl.interpolate.html#module-smpl.interpolate">module</a>
+</li>
+      </ul></li>
+      <li>
+    smpl.io
+
+      <ul>
+        <li><a href="_autosummary/smpl.io.html#module-smpl.io">module</a>
+</li>
+      </ul></li>
+      <li>
+    smpl.latex
+
+      <ul>
+        <li><a href="_autosummary/smpl.latex.html#module-smpl.latex">module</a>
+</li>
+      </ul></li>
+      <li>
+    smpl.parallel
+
+      <ul>
+        <li><a href="_autosummary/smpl.parallel.html#module-smpl.parallel">module</a>
+</li>
+      </ul></li>
+      <li>
+    smpl.plot
+
+      <ul>
+        <li><a href="_autosummary/smpl.plot.html#module-smpl.plot">module</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    smpl.plot2d
+
+      <ul>
+        <li><a href="_autosummary/smpl.plot2d.html#module-smpl.plot2d">module</a>
+</li>
+      </ul></li>
+      <li>
+    smpl.stat
+
+      <ul>
+        <li><a href="_autosummary/smpl.stat.html#module-smpl.stat">module</a>
+</li>
+      </ul></li>
+      <li>
+    smpl.util
+
+      <ul>
+        <li><a href="_autosummary/smpl.util.html#module-smpl.util">module</a>
+</li>
+      </ul></li>
+      <li>
+    smpl.wrap
+
+      <ul>
+        <li><a href="_autosummary/smpl.wrap.html#module-smpl.wrap">module</a>
+</li>
+      </ul></li>
+      <li>
+    smpl_debug
+
+      <ul>
+        <li><a href="_autosummary/smpl_debug.html#module-smpl_debug">module</a>
+</li>
+      </ul></li>
+      <li>
+    smpl_debug.debug
+
+      <ul>
+        <li><a href="_autosummary/smpl_debug.debug.html#module-smpl_debug.debug">module</a>
+</li>
+      </ul></li>
+      <li>
+    smpl_doc
+
+      <ul>
+        <li><a href="_autosummary/smpl_doc.html#module-smpl_doc">module</a>
+</li>
+      </ul></li>
+      <li>
+    smpl_doc.doc
+
+      <ul>
+        <li><a href="_autosummary/smpl_doc.doc.html#module-smpl_doc.doc">module</a>
+</li>
+      </ul></li>
+      <li>
+    smpl_io
+
+      <ul>
+        <li><a href="_autosummary/smpl_io.html#module-smpl_io">module</a>
+</li>
+      </ul></li>
+      <li>
+    smpl_io.io
+
+      <ul>
+        <li><a href="_autosummary/smpl_io.io.html#module-smpl_io.io">module</a>
+</li>
+      </ul></li>
+      <li>
+    smpl_util
+
+      <ul>
+        <li><a href="_autosummary/smpl_util.html#module-smpl_util">module</a>
+</li>
+      </ul></li>
+      <li>
+    smpl_util.util
+
+      <ul>
+        <li><a href="_autosummary/smpl_util.util.html#module-smpl_util.util">module</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/smpl.plot2d.sort_xyz.html#smpl.plot2d.sort_xyz">sort_xyz() (in module smpl.plot2d)</a>
+</li>
+      <li><a href="_autosummary/smpl.functions.sqrt.html#smpl.functions.sqrt">sqrt() (in module smpl.functions)</a>
+</li>
+      <li><a href="_autosummary/smpl.functions.square.html#smpl.functions.square">square() (in module smpl.functions)</a>
+</li>
+      <li><a href="_autosummary/smpl.wrap.str_get_expr.html#smpl.wrap.str_get_expr">str_get_expr() (in module smpl.wrap)</a>
+</li>
+      <li><a href="_autosummary/smpl.wrap.str_get_lambda.html#smpl.wrap.str_get_lambda">str_get_lambda() (in module smpl.wrap)</a>
+</li>
+      <li><a href="_autosummary/smpl.wrap.str_get_varnames.html#smpl.wrap.str_get_varnames">str_get_varnames() (in module smpl.wrap)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="T">T</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl_debug.debug.table.html#smpl_debug.debug.table">table() (in module smpl_debug.debug)</a>
+
+      <ul>
+        <li><a href="_autosummary/smpl_doc.doc.table.html#smpl_doc.doc.table">(in module smpl_doc.doc)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/smpl_debug.debug.table_flush_header.html#smpl_debug.debug.table_flush_header">table_flush_header() (in module smpl_debug.debug)</a>
+</li>
+      <li><a href="_autosummary/smpl_debug.debug.table_flush_line.html#smpl_debug.debug.table_flush_line">table_flush_line() (in module smpl_debug.debug)</a>
+</li>
+      <li><a href="_autosummary/smpl_doc.doc.table_sep.html#smpl_doc.doc.table_sep">table_sep() (in module smpl_doc.doc)</a>
+</li>
+      <li><a href="_autosummary/smpl_io.io.tail.html#smpl_io.io.tail">tail() (in module smpl_io.io)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.functions.tan.html#smpl.functions.tan">tan() (in module smpl.functions)</a>
+</li>
+      <li><a href="_autosummary/smpl_debug.debug.times.html#smpl_debug.debug.times">times() (in module smpl_debug.debug)</a>
+
+      <ul>
+        <li><a href="_autosummary/smpl_util.util.times.html#smpl_util.util.times">(in module smpl_util.util)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/smpl.latex.transpose_table.html#smpl.latex.transpose_table">transpose_table() (in module smpl.latex)</a>
+</li>
+      <li><a href="_autosummary/smpl.stat.trim_domain.html#smpl.stat.trim_domain">trim_domain() (in module smpl.stat)</a>
+</li>
+      <li><a href="_autosummary/smpl_doc.doc.trim_eol_spaces.html#smpl_doc.doc.trim_eol_spaces">trim_eol_spaces() (in module smpl_doc.doc)</a>
+</li>
+      <li><a href="_autosummary/smpl_util.util.true.html#smpl_util.util.true">true() (in module smpl_util.util)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="U">U</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl.stat.unv_lambda.html#smpl.stat.unv_lambda">unv_lambda() (in module smpl.stat)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="W">W</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl_util.util.withify.html#smpl_util.util.withify">withify() (in module smpl_util.util)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/smpl_io.io.write.html#smpl_io.io.write">write() (in module smpl_io.io)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2023, Alexander Puck Neuwirth.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
