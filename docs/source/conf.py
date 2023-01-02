@@ -60,15 +60,10 @@ extensions = [
     "sphinx.ext.mathjax",
     "sphinx.ext.todo",
     "sphinx.ext.doctest",
-    "matplotlib.sphinxext.plot_directive",
-    #'numpydoc',
-    "sphinx_math_dollar",
     "sphinx.ext.autosummary",
     "sphinx.ext.coverage",
     "nbsphinx",
     "jupyter_sphinx",
-    #'jupyter_sphinx.execute'
-    # "autoapi.extension",
 ]
 nbsphinx_execute = "never"
 # nbsphinx_widgets_path=""
