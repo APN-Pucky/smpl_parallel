@@ -3,7 +3,7 @@ Simplified utilities in python.
 
 [![PyPI version][pypi image]][pypi link] [![PyPI version][pypi versions]][pypi link]  ![downloads](https://img.shields.io/pypi/dm/smpl_parallel.svg)
 
- [![test][a t image]][a t link]   [![Coverage Status][c t i]][c t l]  [![Codacy Badge][cc c i]][cc c l]   [![Codacy Badge][cc q i]][cc q l]  [![Documentation][rtd t i]][rtd t l]
+[![test][a t image]][a t link]   [![Coverage Status][c t i]][c t l]  [![Documentation][rtd t i]][rtd t l]
 
 ## Documentation
 
